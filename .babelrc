@@ -1,0 +1,28 @@
+{
+  "presets": [[
+    "@babel/env", {
+      // "targets": {
+      //   "edge": "18",
+      //   "chrome": "74",
+      //   "ie": "11"
+      // }
+      "corejs": 3,
+      "useBuiltIns": "usage",
+      // "useBuiltIns": "entry",
+      "debug": true,
+      "modules": false
+      // "targets": [
+      //   "last 2 chrome versions",
+      //   "last 2 firefox versions",
+      //   "last 2 ios versions"
+      // ]  
+      // "targets": [
+      //   "> 0.3%",
+      //   "not ie > 0"
+      // ]  
+  }],
+  "@babel/react"
+],
+  "plugins": ["@babel/proposal-class-properties"],
+
+}
